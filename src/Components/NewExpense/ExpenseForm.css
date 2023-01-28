@@ -2,11 +2,13 @@
 .new-expense__controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 1rem;
   text-align: left;
 }
-
+.new-expense__control {
+  width: 18rem;
+}
 .new-expense__control label {
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -18,8 +20,7 @@
   padding: 0.5rem;
   border-radius: 6px;
   border: 1px solid #ccc;
-  width: 20rem;
-  max-width: 100%;
+  width: 90%;
 }
 
 .new-expense__actions {
